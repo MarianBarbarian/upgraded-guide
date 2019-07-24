@@ -74,6 +74,14 @@ namespace Project_Day_1
 
             Console.WriteLine("Greatest number is " + greatest);
             Console.WriteLine("Smallest number is " + smallest);
+            Console.WriteLine("Even numbers are " );
+
+            for (int i = 0; i < grades.Length; i++)
+            {
+                if (grades[i] % 2 == 0)
+
+				Console.WriteLine(grades[i] + " ");
+            }
 
 
             /*
